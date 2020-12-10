@@ -8,7 +8,7 @@ public class FactoryProvider {
 
 	public static SessionFactory getFactory() {
 		if (factory == null) {
-			factory = new Configuration().configure("com/nt/cfgs/hibernate.cfg.xml").buildSessionFactory();
+			factory = new Configuration().configure("com/uiet/cfgs/hibernate.cfg.xml").buildSessionFactory();
 		}
 		return factory;
 	}
